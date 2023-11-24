@@ -53,6 +53,33 @@ footer {
     font-variant: small-caps; /* Added for small caps */
 }
 
+/* Blog Post Styles */
+article {
+    margin: 40px 0;
+}
+
+article h2 {
+    font-size: 2em; /* Adjusted for sub-headers */
+    color: #444; /* Darker color for headers */
+}
+
+article section p {
+    font-size: 1.2em; /* Smaller font for body text */
+    color: #555; /* Slightly lighter color for body text */
+    line-height: 1.6em; /* Increased line-height for readability */
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+/* Style for the post date */
+article p {
+    font-style: italic;
+    color: #999;
+    font-size: 1em;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
