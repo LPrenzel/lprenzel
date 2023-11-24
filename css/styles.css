@@ -6,11 +6,20 @@ body {
     font-family: 'Open Sans', sans-serif; /* Updated font-family */
 }
 
-nav ul, footer ul {
+nav ul {
     font-family: 'Open Sans', sans-serif; /* Updated font-family */
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+
+footer ul {
+    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-variant: small-caps; /* Added for small caps */
+
 }
 
 nav ul li, footer ul li {
