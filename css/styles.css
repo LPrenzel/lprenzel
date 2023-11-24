@@ -3,24 +3,23 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav ul {
-    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    font-family: 'Open Sans', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    border-bottom: 1px solid #d5d5d5; /* Thin line under navigation */
-
+    border-bottom: 1px solid #d5d5d5;
 }
 
 footer ul {
-    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    font-family: 'Open Sans', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-variant: small-caps; /* Added for small caps */
+    font-variant: small-caps;
 }
 
 nav ul li, footer ul li {
@@ -39,7 +38,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -51,30 +50,28 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    font-variant: small-caps; /* Added for small caps */
+    font-variant: small-caps;
 }
 
-/* Blog Post Styles */
 article {
     margin: 40px 0;
 }
 
 article h2 {
-    font-size: 2em; /* Adjusted for sub-headers */
-    color: #444; /* Darker color for headers */
+    font-size: 2em;
+    color: #444;
 }
 
 article section p {
-    font-size: 1.2em; /* Smaller font for body text */
-    color: #555; /* Slightly lighter color for body text */
-    line-height: 1.6em; /* Increased line-height for readability */
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6em;
 }
 
 article section {
     margin-bottom: 20px;
 }
 
-/* Style for the post date */
 article p {
     font-style: italic;
     color: #999;
@@ -88,4 +85,32 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    nav ul li, footer ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
 }
