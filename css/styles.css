@@ -7,11 +7,22 @@ body {
 }
 
 nav ul {
+<<<<<<< HEAD
+    font-family: 'Open Sans', sans-serif; /* Updated font-family */
+    padding: 5px;
+=======
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
+>>>>>>> 71fc3ce757b31610291dcc7f7ae08294a0a767c3
     list-style: none;
+<<<<<<< HEAD
+    /* font-weight: bold; */
+    border-bottom: 1px solid #d5d5d5; /* Thin line under navigation */
+
+=======
     font-weight: bold;
     border-bottom: 1px solid #d5d5d5;
+>>>>>>> 71fc3ce757b31610291dcc7f7ae08294a0a767c3
 }
 
 footer ul {
@@ -58,14 +69,14 @@ article {
 }
 
 article h2 {
-    font-size: 2em;
-    color: #444;
+    font-size: 1.6em; /* Adjusted for sub-headers */
+    color: #444; /* Darker color for headers */
 }
 
 article section p {
-    font-size: 1.2em;
-    color: #555;
-    line-height: 1.6em;
+    font-size: 1em; /* Smaller font for body text */
+    color: #555; /* Slightly lighter color for body text */
+    line-height: 1.2em; /* Increased line-height for readability */
 }
 
 article section {
